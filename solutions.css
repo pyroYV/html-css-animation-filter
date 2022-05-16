@@ -51,7 +51,7 @@
     transform: scale(1.5);
   }
 
-.ex-10-icon:hover{
+.ex-10-icon{
     animation: rotation 2s infinite linear;
 }
 
@@ -65,10 +65,10 @@
   }
   
   .ex-11-icon:hover{
-    animation: rotation 2s infinite linear;
+    animation: rotation2 2s infinite linear;
 }
 
-@keyframes rotation {
+@keyframes rotation2 {
     0% {
       transform: rotate(0deg);
     }
